@@ -63,21 +63,33 @@
                                 <rect key="frame" x="75" y="518" width="100" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="gorilla_choise1"/>
+                                <connections>
+                                    <segue destination="FGN-Mo-kcj" kind="presentation" id="wmk-Tp-XBT"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d2a-Ee-uhG">
                                 <rect key="frame" x="243" y="518" width="102" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="gorilla_choise2"/>
+                                <connections>
+                                    <segue destination="FGN-Mo-kcj" kind="presentation" id="SJW-pl-BpF"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MAc-XK-dYC">
                                 <rect key="frame" x="74" y="614" width="102" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="gorilla_choise3"/>
+                                <connections>
+                                    <segue destination="FGN-Mo-kcj" kind="presentation" id="c63-uL-W4A"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rwS-Em-Hwq">
                                 <rect key="frame" x="243" y="614" width="103" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="gorilla_choise4"/>
+                                <connections>
+                                    <segue destination="FGN-Mo-kcj" kind="presentation" id="GM8-RH-VeG"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="819-so-aUv">
                                 <rect key="frame" x="192" y="767" width="31" height="30"/>
