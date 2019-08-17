@@ -3,19 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A18E8C34849A5EA4590AF44 /* Pods_GorillaGorillaGorilla.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0234C9B29D81EADB2ECBBA55 /* Pods_GorillaGorillaGorilla.framework */; };
+		4582F6EF2307EA1E00448408 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4582F6EE2307EA1E00448408 /* ResultViewController.swift */; };
 		458DE9EB2303D78D000D85BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458DE9EA2303D78D000D85BA /* AppDelegate.swift */; };
 		458DE9ED2303D78D000D85BA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458DE9EC2303D78D000D85BA /* HomeViewController.swift */; };
 		458DE9F02303D78D000D85BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 458DE9EE2303D78D000D85BA /* Main.storyboard */; };
 		458DE9F22303D78E000D85BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 458DE9F12303D78E000D85BA /* Assets.xcassets */; };
 		458DE9F52303D78E000D85BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 458DE9F32303D78E000D85BA /* LaunchScreen.storyboard */; };
 		45FEBAA62303E1DD0044365D /* ChooseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FEBAA52303E1DD0044365D /* ChooseViewController.swift */; };
+		45FEBAA92303F6D10044365D /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FEBAA82303F6D10044365D /* Question.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0234C9B29D81EADB2ECBBA55 /* Pods_GorillaGorillaGorilla.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GorillaGorillaGorilla.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4582F6EE2307EA1E00448408 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		458DE9E72303D78D000D85BA /* GorillaGorillaGorilla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GorillaGorillaGorilla.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		458DE9EA2303D78D000D85BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		458DE9EC2303D78D000D85BA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +29,9 @@
 		458DE9F42303D78E000D85BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		458DE9F62303D78E000D85BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45FEBAA52303E1DD0044365D /* ChooseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseViewController.swift; sourceTree = "<group>"; };
+		45FEBAA82303F6D10044365D /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		90FF2B39BD70CB021632B7C4 /* Pods-GorillaGorillaGorilla.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GorillaGorillaGorilla.debug.xcconfig"; path = "Target Support Files/Pods-GorillaGorillaGorilla/Pods-GorillaGorillaGorilla.debug.xcconfig"; sourceTree = "<group>"; };
+		C454D47427491ACB3ED15463 /* Pods-GorillaGorillaGorilla.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GorillaGorillaGorilla.release.xcconfig"; path = "Target Support Files/Pods-GorillaGorillaGorilla/Pods-GorillaGorillaGorilla.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A18E8C34849A5EA4590AF44 /* Pods_GorillaGorillaGorilla.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10ECB3F36FB8C504F36C6A06 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0234C9B29D81EADB2ECBBA55 /* Pods_GorillaGorillaGorilla.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		458DE9DE2303D78D000D85BA = {
 			isa = PBXGroup;
 			children = (
 				458DE9E92303D78D000D85BA /* GorillaGorillaGorilla */,
 				458DE9E82303D78D000D85BA /* Products */,
+				FDFE96D08EE5DF3D20DEF525 /* Pods */,
+				10ECB3F36FB8C504F36C6A06 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +78,23 @@
 				458DE9EA2303D78D000D85BA /* AppDelegate.swift */,
 				45FEBAA52303E1DD0044365D /* ChooseViewController.swift */,
 				458DE9EC2303D78D000D85BA /* HomeViewController.swift */,
+				4582F6EE2307EA1E00448408 /* ResultViewController.swift */,
 				458DE9EE2303D78D000D85BA /* Main.storyboard */,
 				458DE9F12303D78E000D85BA /* Assets.xcassets */,
 				458DE9F32303D78E000D85BA /* LaunchScreen.storyboard */,
 				458DE9F62303D78E000D85BA /* Info.plist */,
+				45FEBAA82303F6D10044365D /* Question.swift */,
 			);
 			path = GorillaGorillaGorilla;
+			sourceTree = "<group>";
+		};
+		FDFE96D08EE5DF3D20DEF525 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90FF2B39BD70CB021632B7C4 /* Pods-GorillaGorillaGorilla.debug.xcconfig */,
+				C454D47427491ACB3ED15463 /* Pods-GorillaGorillaGorilla.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 458DE9F92303D78E000D85BA /* Build configuration list for PBXNativeTarget "GorillaGorillaGorilla" */;
 			buildPhases = (
+				0429387C4720EBE816E47061 /* [CP] Check Pods Manifest.lock */,
 				458DE9E32303D78D000D85BA /* Sources */,
 				458DE9E42303D78D000D85BA /* Frameworks */,
 				458DE9E52303D78D000D85BA /* Resources */,
+				75B3406ECE6C3B09FEBF4BDF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,12 +165,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0429387C4720EBE816E47061 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GorillaGorillaGorilla-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75B3406ECE6C3B09FEBF4BDF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GorillaGorillaGorilla/Pods-GorillaGorillaGorilla-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GorillaGorillaGorilla/Pods-GorillaGorillaGorilla-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GorillaGorillaGorilla/Pods-GorillaGorillaGorilla-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		458DE9E32303D78D000D85BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4582F6EF2307EA1E00448408 /* ResultViewController.swift in Sources */,
 				458DE9ED2303D78D000D85BA /* HomeViewController.swift in Sources */,
+				45FEBAA92303F6D10044365D /* Question.swift in Sources */,
 				458DE9EB2303D78D000D85BA /* AppDelegate.swift in Sources */,
 				45FEBAA62303E1DD0044365D /* ChooseViewController.swift in Sources */,
 			);
@@ -284,6 +360,7 @@
 		};
 		458DE9FA2303D78E000D85BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90FF2B39BD70CB021632B7C4 /* Pods-GorillaGorillaGorilla.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -301,6 +378,7 @@
 		};
 		458DE9FB2303D78E000D85BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C454D47427491ACB3ED15463 /* Pods-GorillaGorillaGorilla.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
